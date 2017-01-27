@@ -1,0 +1,14 @@
+{
+	"category" : "MQTT-Agharta-Client-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mqttClient" ],
+	"name" : "AGHClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

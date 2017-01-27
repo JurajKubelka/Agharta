@@ -1,0 +1,14 @@
+{
+	"category" : "MQTT-Agharta-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AGHMQTTMockClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
