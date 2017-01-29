@@ -1,0 +1,3 @@
+configuration
+registeredUsersMessageContents
+	^ 'REGS' asByteArray

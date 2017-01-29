@@ -1,3 +1,3 @@
 public - users
 registeredUsers
-	^ registeredUsers ifNil: [ registeredUsers := OrderedCollection new ]
+	^ registeredUsers ifNil: [ registeredUsers := AGHRegisteredUsers new ]

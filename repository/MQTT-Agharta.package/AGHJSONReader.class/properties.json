@@ -1,0 +1,14 @@
+{
+	"category" : "MQTT-Agharta-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AGHJSONReader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

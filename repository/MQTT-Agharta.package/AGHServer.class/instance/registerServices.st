@@ -1,5 +1,5 @@
 initialize-release
 registerServices
 	self mqttClient 
-		subscribeToTopic: self registerUsersTopicAsk;
+		subscribeToTopic: self registeredUsersTopicAsk;
 		subscribeToTopic: self registerUserTopic

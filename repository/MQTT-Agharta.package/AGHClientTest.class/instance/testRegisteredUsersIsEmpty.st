@@ -2,5 +2,5 @@ tests
 testRegisteredUsersIsEmpty
 	| users |
 	users := client registeredUsers.
-	self assert: users isCollection.
-	self assert: users isEmpty.
+	self deny: users isNil.
+	self assert: users collection isEmpty.

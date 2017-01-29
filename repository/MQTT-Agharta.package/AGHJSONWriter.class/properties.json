@@ -1,0 +1,14 @@
+{
+	"category" : "MQTT-Agharta-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream" ],
+	"name" : "AGHJSONWriter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

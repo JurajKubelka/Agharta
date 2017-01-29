@@ -1,0 +1,1 @@
+An AGHRegisteredUsersTest is a test class for testing the behavior of AGHRegisteredUsers

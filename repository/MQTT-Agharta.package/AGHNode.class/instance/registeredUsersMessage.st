@@ -1,3 +1,0 @@
-configuration
-registeredUsersMessage
-	^ 'REGS' asByteArray

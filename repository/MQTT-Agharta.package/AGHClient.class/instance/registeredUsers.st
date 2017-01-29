@@ -1,8 +1,7 @@
 public
 registeredUsers
 	| packet |
-	mqttClient subscribeToTopic: self registerUsersTopicGet.
-	mqttClient sendMessage: self registeredUsersMessage toTopic: self registerUsersTopicAsk.
+	mqttClient subscribeToTopic: self registeredUsersTopicGet.
+	mqttClient sendMessage: self registeredUsersMessageContents toTopic: self registeredUsersTopicAsk.
 	packet := mqttClient readMessage.
-	packet contents.
-	^ #()
+	^ AGHJSONReader new fromByteArray: packet contents
