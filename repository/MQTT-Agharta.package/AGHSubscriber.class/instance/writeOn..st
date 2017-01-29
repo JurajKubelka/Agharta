@@ -1,6 +1,12 @@
 writing
-writeOn: binaryStream
-	"Write a binary representation of me on binaryStream"
-	self flag: 'think of a protocol'
-	"binaryStream nextPut: ((self typeValue << 4) bitXor: self flagBits).
-	self writeRemainingLengthOn: binaryStream "
+writeOn: writeStream
+	"Write a JSON representation of me on binaryStream"
+	writeStream 
+		nextPutAll: '{"type": "Subscriber",';
+		nextPutAll: '"nickname": "';
+		nextPutAll: self nickname asString;
+		nextPutAll: '", "privateId": "'.
+	self privateId writeOn: writeStream.
+	writeStream nextPutAll: '", "publicId": "'.
+	self publicId writeOn: writeStream.
+	writeStream nextPutAll: '"}'

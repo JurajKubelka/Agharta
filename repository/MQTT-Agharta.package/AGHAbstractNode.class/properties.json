@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "AGHClient",
+		"mqttClient" ],
+	"name" : "AGHAbstractNode",
 	"pools" : [
 		 ],
-	"super" : "AGHNode",
+	"super" : "Object",
 	"type" : "normal" }

@@ -1,6 +1,8 @@
 public
 registeredUsers
-	self flag: #register.
+	| packet |
+	mqttClient subscribeToTopic: self registerUsersTopicGet.
 	mqttClient sendMessage: self registeredUsersMessage toTopic: self registerUsersTopicAsk.
-	self flag: 'check if I can first ask, then register for the get topic.'.
+	packet := mqttClient readMessage.
+	packet contents.
 	^ #()

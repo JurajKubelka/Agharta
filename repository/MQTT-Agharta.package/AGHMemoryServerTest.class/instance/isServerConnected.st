@@ -1,0 +1,3 @@
+testing
+isServerConnected
+	^ server isConnected

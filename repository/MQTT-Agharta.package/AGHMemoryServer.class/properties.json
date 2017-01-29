@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "AGHClient",
+		"registeredUsers" ],
+	"name" : "AGHMemoryServer",
 	"pools" : [
 		 ],
-	"super" : "AGHNode",
+	"super" : "AGHServer",
 	"type" : "normal" }

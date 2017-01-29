@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "AGHClient",
+		"prefix" ],
+	"name" : "AGHNode",
 	"pools" : [
 		 ],
-	"super" : "AGHNode",
+	"super" : "AGHAbstractNode",
 	"type" : "normal" }
