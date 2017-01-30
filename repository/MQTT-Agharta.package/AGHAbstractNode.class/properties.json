@@ -1,14 +1,13 @@
 {
-	"category" : "MQTT-Agharta-Client-Server",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"mqttClient" ],
-	"name" : "AGHAbstractNode",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "MQTT-Agharta-Client-Server",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mqttClient"
+	],
+	"name" : "AGHAbstractNode",
+	"type" : "normal"
+}

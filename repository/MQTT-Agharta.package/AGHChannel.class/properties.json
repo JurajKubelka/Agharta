@@ -1,15 +1,15 @@
 {
-	"category" : "MQTT-Agharta-Model",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MQTT-Agharta-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
+		"id",
 		"mqttClient",
-		"messages" ],
+		"messages"
+	],
 	"name" : "AGHChannel",
-	"pools" : [
-		 ],
-	"super" : "AGHUnregisteredChannel",
-	"type" : "normal" }
+	"type" : "normal"
+}

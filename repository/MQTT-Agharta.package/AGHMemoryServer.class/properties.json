@@ -1,14 +1,14 @@
 {
-	"category" : "MQTT-Agharta-Client-Server",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"registeredUsers" ],
-	"name" : "AGHMemoryServer",
-	"pools" : [
-		 ],
 	"super" : "AGHServer",
-	"type" : "normal" }
+	"category" : "MQTT-Agharta-Client-Server",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"registeredUsers",
+		"channels"
+	],
+	"name" : "AGHMemoryServer",
+	"type" : "normal"
+}

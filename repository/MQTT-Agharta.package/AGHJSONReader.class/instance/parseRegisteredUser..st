@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseRegisteredUser: json 
 	^ AGHRegisteredUser new
 		nickname: (json at: 'nickname');

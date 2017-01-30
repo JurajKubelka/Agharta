@@ -1,3 +1,3 @@
-public - users
+public
 registerUser: user
 	^ self subclassResponsibility

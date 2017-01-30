@@ -1,14 +1,11 @@
 {
-	"category" : "MQTT-Agharta-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "AGHMemoryServerTest",
-	"pools" : [
-		 ],
 	"super" : "AGHClientTest",
-	"type" : "normal" }
+	"category" : "MQTT-Agharta-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AGHMemoryServerTest",
+	"type" : "normal"
+}

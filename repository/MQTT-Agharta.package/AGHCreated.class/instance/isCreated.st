@@ -1,0 +1,3 @@
+testing
+isCreated
+	^ true

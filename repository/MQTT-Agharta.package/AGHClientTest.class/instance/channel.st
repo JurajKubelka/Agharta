@@ -1,5 +1,5 @@
 accessing
 channel
 	^ AGHChannel new
-			id: 'channel one';
+			id: self channelId;
 			yourself

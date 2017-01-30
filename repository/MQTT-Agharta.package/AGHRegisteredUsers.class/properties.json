@@ -1,14 +1,13 @@
 {
-	"category" : "MQTT-Agharta-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"collection" ],
-	"name" : "AGHRegisteredUsers",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "MQTT-Agharta-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"collection"
+	],
+	"name" : "AGHRegisteredUsers",
+	"type" : "normal"
+}

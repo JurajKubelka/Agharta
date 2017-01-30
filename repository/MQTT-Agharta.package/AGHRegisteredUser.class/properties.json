@@ -1,16 +1,15 @@
 {
-	"category" : "MQTT-Agharta-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MQTT-Agharta-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"nickname",
 		"privateId",
-		"publicId" ],
+		"publicId"
+	],
 	"name" : "AGHRegisteredUser",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

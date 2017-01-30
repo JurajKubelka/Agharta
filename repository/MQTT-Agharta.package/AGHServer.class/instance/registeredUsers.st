@@ -1,3 +1,3 @@
-public - users
+public
 registeredUsers
 	^ self subclassResponsibility

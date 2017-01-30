@@ -1,8 +1,7 @@
 tests
 testRegisterChannel
-	server registerServices.
-	self assert: (client registerChannel: self unregisteredChannel).
-	server receiveMessage.
+	server registerServices; run.
+	self assert: (client registerChannel: self channel).
 	self assert: server channels collection size equals: 1.
-	client channels collection size equals: 1.
+	self assert: client channels collection size equals: 1.
 	

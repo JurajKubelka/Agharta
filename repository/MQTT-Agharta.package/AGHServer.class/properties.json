@@ -1,15 +1,14 @@
 {
-	"category" : "MQTT-Agharta-Client-Server",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "AGHNode",
+	"category" : "MQTT-Agharta-Client-Server",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"process",
-		"finish" ],
+		"finish"
+	],
 	"name" : "AGHServer",
-	"pools" : [
-		 ],
-	"super" : "AGHNode",
-	"type" : "normal" }
+	"type" : "normal"
+}

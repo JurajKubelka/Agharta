@@ -1,14 +1,13 @@
 {
-	"category" : "MQTT-Agharta-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		"registeredUser" ],
-	"name" : "AGHRegisteredUserTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "MQTT-Agharta-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"registeredUser"
+	],
+	"name" : "AGHRegisteredUserTest",
+	"type" : "normal"
+}

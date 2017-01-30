@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AGHMessage",
+	"category" : "MQTT-Agharta-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AGHTextMessage",
+	"type" : "normal"
+}
