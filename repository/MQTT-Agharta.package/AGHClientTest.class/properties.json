@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"client" ],
+		"client",
+		"server",
+		"prefix" ],
 	"name" : "AGHClientTest",
 	"pools" : [
 		 ],

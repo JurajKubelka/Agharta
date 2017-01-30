@@ -1,6 +1,7 @@
 tests
 testRegisteredUsers
 	| users |
+	server registerServices; run.
 	client registerUser: self user.
 	users := client registeredUsers.
 	self deny: users isNil.

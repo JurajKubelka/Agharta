@@ -1,14 +1,14 @@
 {
-	"category" : "MQTT-Agharta-Tests",
+	"category" : "MQTT-Agharta-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "AGHMemoryServerTest",
+		"answerTopic" ],
+	"name" : "AGHRequest",
 	"pools" : [
 		 ],
-	"super" : "AGHClientTest",
+	"super" : "Object",
 	"type" : "normal" }

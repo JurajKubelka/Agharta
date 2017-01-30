@@ -1,0 +1,3 @@
+running
+setUpServer
+	self subclassResponsibility

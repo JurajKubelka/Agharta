@@ -1,14 +1,15 @@
 {
-	"category" : "MQTT-Agharta-Tests",
+	"category" : "MQTT-Agharta-Model",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "AGHMemoryServerTest",
+		"mqttClient",
+		"messages" ],
+	"name" : "AGHChannel",
 	"pools" : [
 		 ],
-	"super" : "AGHClientTest",
+	"super" : "AGHUnregisteredChannel",
 	"type" : "normal" }
