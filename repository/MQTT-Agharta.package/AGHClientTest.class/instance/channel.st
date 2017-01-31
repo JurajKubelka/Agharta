@@ -1,5 +1,5 @@
 accessing
 channel
-	^ AGHChannel new
+	^ AGHChannelModel new
 			id: self channelId;
 			yourself

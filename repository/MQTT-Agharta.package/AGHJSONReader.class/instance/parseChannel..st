@@ -1,5 +1,5 @@
 parsing
 parseChannel: json 
-	^ AGHChannel new
+	^ AGHChannelModel new
 		id: (json at: 'id');
 		yourself

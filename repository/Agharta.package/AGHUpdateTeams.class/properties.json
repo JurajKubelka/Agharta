@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Agharta-Commands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"teams",
+		"received"
+	],
+	"name" : "AGHUpdateTeams",
+	"type" : "normal"
+}

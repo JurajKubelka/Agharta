@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "Agharta-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"results",
+		"semaphore",
+		"agharta",
+		"team"
+	],
+	"name" : "AGHTeamTest",
+	"type" : "normal"
+}

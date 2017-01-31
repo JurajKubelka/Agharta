@@ -1,3 +1,3 @@
 accessing
 channels
-	^ channels ifNil: [ channels := AGHChannels new ]
+	^ channels ifNil: [ channels := AGHChannelsModel new ]

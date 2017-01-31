@@ -1,0 +1,1 @@
+An AGHTeamTest is a test class for testing the behavior of AGHTeam

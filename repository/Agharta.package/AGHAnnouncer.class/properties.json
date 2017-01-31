@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AGHAbstractAnnouncer",
+	"category" : "Agharta-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"announcer"
+	],
+	"name" : "AGHAnnouncer",
+	"type" : "normal"
+}

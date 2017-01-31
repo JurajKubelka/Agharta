@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "AGHAnnouncer",
+	"category" : "Agharta-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"username",
+		"id",
+		"network",
+		"teams"
+	],
+	"name" : "Agharta",
+	"type" : "normal"
+}
