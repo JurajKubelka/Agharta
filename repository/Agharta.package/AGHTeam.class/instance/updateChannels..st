@@ -1,4 +1,4 @@
-public
+network requests
 updateChannels: aCollection 
 	AGHUpdateTeams new
 		teams: self channels;

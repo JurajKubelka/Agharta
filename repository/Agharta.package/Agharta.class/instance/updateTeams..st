@@ -1,4 +1,4 @@
-network handing
+network handling
 updateTeams: aCollection 
 	AGHUpdateTeams new
 		teams: self teams;

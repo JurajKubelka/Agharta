@@ -1,3 +1,3 @@
 public
 registerTeam: anAGHTeam 
-	self announce: (AGHCannotRegisterTeam new team: anAGHTeam copy; yourself)
+	self agharta cannotRegisterTeam: anAGHTeam copy

@@ -1,3 +1,3 @@
-as yet unclassified
+public
 askForChannelsIn: anAGHTeam 
 	self agharta updateChannels: #() in: anAGHTeam copy.

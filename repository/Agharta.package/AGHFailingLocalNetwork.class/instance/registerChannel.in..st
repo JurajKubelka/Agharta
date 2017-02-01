@@ -1,3 +1,3 @@
 public
 registerChannel: anAGHChannel in: anAGHTeam 
-	self announce: (AGHCannotRegisterChannel new team: anAGHTeam copy; channel: anAGHChannel copy; yourself)
+	self agharta cannotRegisterChannel: anAGHChannel copy in: anAGHTeam copy.

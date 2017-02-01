@@ -1,4 +1,4 @@
-network handing
+network handling
 updateChannels: aCollection in: anAGHTeam 
 	self teams 
 		detect: [ :team | team = anAGHTeam ] 
