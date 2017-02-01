@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AGHObjectWithIdAndStatus",
+	"category" : "Agharta-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AGHChannel",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+public
+askForTeams
+	"do nothing"

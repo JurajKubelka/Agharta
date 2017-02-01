@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Agharta-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"collection",
+		"itemOne",
+		"itemOneCopy",
+		"itemTwo",
+		"result"
+	],
+	"name" : "AGHCollectionTest",
+	"type" : "normal"
+}

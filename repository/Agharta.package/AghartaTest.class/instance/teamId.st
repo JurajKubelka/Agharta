@@ -1,3 +1,0 @@
-accessing
-teamId
-	^ 'glamorous team :-)'

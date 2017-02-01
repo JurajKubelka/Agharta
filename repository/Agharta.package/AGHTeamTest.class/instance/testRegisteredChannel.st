@@ -5,3 +5,6 @@ testRegisteredChannel
 	self assertSemaphore.
 	self assert: results first team id equals: self teamId.
 	self assert: results first channel id equals: self channelId.
+	self assert: team channels size equals: 1.
+	self assert: team channels first id equals: self channelId.
+	self assert: team channels first status isRegistered.

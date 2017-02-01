@@ -1,3 +1,3 @@
-as yet unclassified
+public
 registerChannelId: aString 
-	self registerChannel: (AGHChannel2 new id: aString; yourself)
+	self registerChannel: (AGHChannel new id: aString; yourself)

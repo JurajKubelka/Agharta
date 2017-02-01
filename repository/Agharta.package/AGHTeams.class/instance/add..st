@@ -1,4 +1,4 @@
 adding
-add: anAGHTeam 
-	anAGHTeam agharta: self agharta.
-	^ collection add: anAGHTeam
+add: newTeam
+	newTeam agharta: self agharta.
+	^ super add: newTeam.

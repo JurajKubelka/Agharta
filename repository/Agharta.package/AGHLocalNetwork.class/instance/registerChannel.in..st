@@ -1,3 +1,4 @@
 public
 registerChannel: anAGHChannel in: anAGHTeam 
-	"do nothing"
+	"Register a channel in a team if not registered yet."
+	self subclassResponsibility

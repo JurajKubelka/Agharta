@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AGHLocalNetwork",
+	"category" : "Agharta-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AGHRespondingLocalNetwork",
+	"type" : "normal"
+}

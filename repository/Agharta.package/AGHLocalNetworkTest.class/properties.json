@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "JurajKubelka 2/1/2017 16:05",
+	"super" : "TestCase",
+	"category" : "Agharta-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"agharta",
+		"results",
+		"semaphore",
+		"network"
+	],
+	"name" : "AGHLocalNetworkTest",
+	"type" : "normal"
+}

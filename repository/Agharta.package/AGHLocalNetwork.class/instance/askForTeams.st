@@ -1,3 +1,4 @@
 public
 askForTeams
-	self agharta updateTeams: #()
+	"Send registered teams."
+	self subclassResponsibility

@@ -1,0 +1,1 @@
+An AGHLocalNetworkTest is an abstract test class for testing the behavior of objects that need Agharta and AGHLocalNetwork.

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AGHCollectionTest",
+	"category" : "Agharta-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AGHChannelsTest",
+	"type" : "normal"
+}

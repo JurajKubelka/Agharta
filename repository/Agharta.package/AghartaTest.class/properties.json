@@ -1,15 +1,11 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "TestCase",
+	"super" : "AGHLocalNetworkTest",
 	"category" : "Agharta-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"agharta",
-		"results",
-		"semaphore"
-	],
+	"instvars" : [ ],
 	"name" : "AghartaTest",
 	"type" : "normal"
 }
