@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "AGHObjectWithIdAndStatus",
+	"super" : "AGHMessageContents",
 	"category" : "Agharta-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"messages"
+		"binary"
 	],
-	"name" : "AGHChannel",
+	"name" : "AGHBinary",
 	"type" : "normal"
 }

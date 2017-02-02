@@ -1,3 +1,3 @@
 testing
-isUnregistred
+isNotSent
 	^ false

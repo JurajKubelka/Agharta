@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"sender",
+		"contents"
+	],
 	"name" : "AGHMessage",
 	"type" : "normal"
 }

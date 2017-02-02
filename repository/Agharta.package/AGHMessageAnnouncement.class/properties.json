@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "AGHObjectWithIdAndStatus",
-	"category" : "Agharta-Core",
+	"super" : "AGHChannelAnnouncement",
+	"category" : "Agharta-Announcements",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"messages"
+		"message"
 	],
-	"name" : "AGHChannel",
+	"name" : "AGHMessageAnnouncement",
 	"type" : "normal"
 }

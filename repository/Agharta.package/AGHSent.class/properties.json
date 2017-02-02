@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AGHStatus",
+	"category" : "Agharta-Status",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AGHSent",
+	"type" : "normal"
+}
