@@ -1,5 +1,5 @@
 network handling
-cannotRegisterChannel: anAGHChannel in: anAGHTeam 
+cannotRegisterChannel: anAGHChannel
 	self teams
-		find: anAGHTeam 
+		find: anAGHChannel team 
 		do: [ :team | team cannotRegisterChannel: anAGHChannel ]
