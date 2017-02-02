@@ -1,3 +1,3 @@
-as yet unclassified
+public
 sendMessage: anAGHMessage 
 	"do nothing"

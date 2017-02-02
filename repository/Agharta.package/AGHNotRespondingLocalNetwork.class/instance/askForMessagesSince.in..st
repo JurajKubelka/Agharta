@@ -1,3 +1,3 @@
-as yet unclassified
+public
 askForMessagesSince: aDateAndTime in: anAGHChannel 
 	"do nothing"
