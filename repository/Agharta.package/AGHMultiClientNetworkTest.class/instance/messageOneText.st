@@ -1,0 +1,3 @@
+accessing
+messageOneText
+	^ 'message one'

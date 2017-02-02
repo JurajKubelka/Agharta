@@ -1,6 +1,10 @@
 network handling
-teamRegistered: anAGHTeam 
-	self teams 
-		find: anAGHTeam do: [ :team | 
-			team beRegistered.
-			self announce: (AGHRegisteredTeam new team: team) ]
+teamRegistered: registeredTeam
+	| localTeam |
+	localTeam := self teams add: registeredTeam.
+	(self
+		skipRegisteredTeamAnnouncement: localTeam
+		comparingTo: registeredTeam)
+		ifTrue: [ ^ self ].
+	localTeam beRegistered.
+	self announce: (AGHRegisteredTeam new team: localTeam)

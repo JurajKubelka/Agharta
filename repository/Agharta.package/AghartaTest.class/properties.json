@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "AGHLocalNetworkTest",
+	"super" : "AGHOneClientNetworkTest",
 	"category" : "Agharta-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],

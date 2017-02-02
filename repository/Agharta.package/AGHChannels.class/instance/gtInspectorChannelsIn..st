@@ -5,6 +5,9 @@ gtInspectorChannelsIn: composite
 			title: 'Channels';
 			display: [ collection ];
 			column: 'Id' evaluated: [ :channel | channel id ];
-			column: 'Status' evaluated: [ :channel | channel status className ];
+			column: 'Status' evaluated: [ :channel | channel status name ];
+			column: '#Messages' 
+				evaluated: [ :channel | channel messages size ] 
+				sortedBy: [ :a :b | a messages size > b messages size ];
 			beMultiple;
 			yourself

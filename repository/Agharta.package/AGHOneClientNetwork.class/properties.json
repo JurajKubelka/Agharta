@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "AGHLocalNetwork",
 	"category" : "Agharta-Network",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "AGHLocalNetwork",
+	"instvars" : [
+		"agharta"
+	],
+	"name" : "AGHOneClientNetwork",
 	"type" : "normal"
 }
