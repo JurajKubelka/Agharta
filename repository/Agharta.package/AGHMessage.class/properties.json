@@ -6,7 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"sender",
+		"id",
+		"channel",
+		"status",
+		"author",
 		"contents"
 	],
 	"name" : "AGHMessage",

@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"team"
+	],
 	"name" : "AGHChannelsTest",
 	"type" : "normal"
 }

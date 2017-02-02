@@ -8,3 +8,4 @@ testSendingMessage
 	self assert: channel messages size equals: 1.
 	self assert: channel messages first text equals: self text.
 	self assert: channel messages first status isSending.
+	self assert: channel messages first channel == channel.

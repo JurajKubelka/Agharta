@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"username",
+		"user",
 		"id",
 		"network",
 		"teams"

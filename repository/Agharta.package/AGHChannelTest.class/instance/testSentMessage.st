@@ -1,6 +1,6 @@
 tests
 testSentMessage
-	self setNotRespondingLocalNetwork.
+	self setRespondingLocalNetwork.
 	channel when: AGHSentMessage do: [ :ann | results add: ann. semaphore signal ].
 	channel sendTextMessage: self text.
 	self assertSemaphore.

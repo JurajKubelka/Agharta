@@ -6,6 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"team",
+		"agharta",
 		"messages"
 	],
 	"name" : "AGHChannel",

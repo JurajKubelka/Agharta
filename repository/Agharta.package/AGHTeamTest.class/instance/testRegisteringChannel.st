@@ -9,3 +9,7 @@ testRegisteringChannel
 	self assert: team channels size equals: 1.
 	self assert: team channels first id equals: self channelId.
 	self assert: team channels first status isRegistering.
+	self assert: team channels first agharta notNil.
+	self assert: team channels first team notNil.
+	self assert: team channels first agharta == agharta.
+	self assert: team channels first team == team.

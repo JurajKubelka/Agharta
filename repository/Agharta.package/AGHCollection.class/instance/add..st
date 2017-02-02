@@ -4,4 +4,6 @@ add: newItem
 	^ collection 
 		detect: [ :eachItem | eachItem = newItem ]
 		ifFound: [ :item | item ]
-		ifNone: [ collection add: newItem ]
+		ifNone: [ 
+			self updateReferences: newItem.
+			collection add: newItem ]

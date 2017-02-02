@@ -1,4 +1,4 @@
 network requests
-updateChannels
+askForChannels
 	self announce: AGHUpdatingChannels.
-	self network askForChannelsIn: self.
+	self agharta askForChannelsIn: self.

@@ -1,3 +1,3 @@
 accessing
 messages
-	^ messages ifNil: [ messages := OrderedCollection new ]
+	^ messages ifNil: [ messages := AGHMessages new channel: self; yourself ]

@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"collection"
+		"collection",
+		"agharta"
 	],
 	"name" : "AGHCollection",
 	"type" : "normal"

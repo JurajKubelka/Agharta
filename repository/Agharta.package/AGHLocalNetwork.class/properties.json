@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Agharta-Tests",
+	"category" : "Agharta-Network",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,6 +1,6 @@
 tests
 testUpdatedTeams
 	agharta when: AGHUpdatedTeams do: [ :ann | results add: ann. semaphore signal ].
-	agharta updateTeams.
+	agharta askForTeams.
 	self assertSemaphore.
 	self assert: results first teams size equals: 0.

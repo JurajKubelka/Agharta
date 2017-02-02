@@ -1,0 +1,1 @@
+An AGHMessagesTest is a test class for testing the behavior of AGHMessages

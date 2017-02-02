@@ -10,7 +10,8 @@
 		"itemOne",
 		"itemOneCopy",
 		"itemTwo",
-		"result"
+		"result",
+		"agharta"
 	],
 	"name" : "AGHCollectionTest",
 	"type" : "normal"
