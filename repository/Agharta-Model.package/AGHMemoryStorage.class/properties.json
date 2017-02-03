@@ -1,16 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "AGHAnnouncer",
-	"category" : "Agharta-Model-Client-Server",
+	"super" : "Object",
+	"category" : "Agharta-Model-Storage",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"user",
-		"id",
-		"network",
 		"teams"
 	],
-	"name" : "Agharta",
+	"name" : "AGHMemoryStorage",
 	"type" : "normal"
 }

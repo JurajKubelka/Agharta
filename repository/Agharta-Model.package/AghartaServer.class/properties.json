@@ -6,11 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"user",
-		"id",
 		"network",
-		"teams"
+		"storage"
 	],
-	"name" : "Agharta",
+	"name" : "AghartaServer",
 	"type" : "normal"
 }
