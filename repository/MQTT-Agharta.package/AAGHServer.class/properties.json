@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "AAGHNode",
+	"category" : "MQTT-Agharta-Client-Server",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"process",
+		"finish"
+	],
+	"name" : "AAGHServer",
+	"type" : "normal"
+}

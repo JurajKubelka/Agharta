@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AAGHRequest",
+	"category" : "MQTT-Agharta-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"channel"
+	],
+	"name" : "AAGHRegisterChannel",
+	"type" : "normal"
+}

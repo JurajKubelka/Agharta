@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MQTT-Agharta-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nickname",
+		"privateId",
+		"publicId"
+	],
+	"name" : "AAGHRegisteredUser",
+	"type" : "normal"
+}
