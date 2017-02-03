@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AGHMessageContents",
+	"category" : "Agharta-Model-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"binary"
+	],
+	"name" : "AGHBinary",
+	"type" : "normal"
+}

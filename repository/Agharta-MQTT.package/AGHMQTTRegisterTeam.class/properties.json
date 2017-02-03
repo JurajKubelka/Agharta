@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AGHMQTTRequest",
+	"category" : "Agharta-MQTT-Requests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"team"
+	],
+	"name" : "AGHMQTTRegisterTeam",
+	"type" : "normal"
+}

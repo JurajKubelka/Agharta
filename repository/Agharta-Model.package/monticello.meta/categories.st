@@ -1,0 +1,8 @@
+SystemOrganization addCategory: #'Agharta-Model'!
+SystemOrganization addCategory: 'Agharta-Model-Announcements'!
+SystemOrganization addCategory: 'Agharta-Model-Commands'!
+SystemOrganization addCategory: 'Agharta-Model-Core'!
+SystemOrganization addCategory: 'Agharta-Model-Network'!
+SystemOrganization addCategory: 'Agharta-Model-Status'!
+SystemOrganization addCategory: 'Agharta-Model-Tests'!
+SystemOrganization addCategory: 'Agharta-Model-Traits'!

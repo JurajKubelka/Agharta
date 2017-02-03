@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AGHChannelAnnouncement",
+	"category" : "Agharta-Model-Announcements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"message"
+	],
+	"name" : "AGHMessageAnnouncement",
+	"type" : "normal"
+}

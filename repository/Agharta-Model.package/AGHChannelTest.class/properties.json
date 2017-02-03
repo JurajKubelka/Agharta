@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "AGHOneClientNetworkTest",
+	"category" : "Agharta-Model-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"channel",
+		"team"
+	],
+	"name" : "AGHChannelTest",
+	"type" : "normal"
+}

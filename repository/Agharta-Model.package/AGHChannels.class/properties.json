@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AGHCollection",
+	"category" : "Agharta-Model-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"team"
+	],
+	"name" : "AGHChannels",
+	"type" : "normal"
+}

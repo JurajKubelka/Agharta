@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "JurajKubelka 2/2/2017 18:07",
+	"super" : "TestCase",
+	"category" : "Agharta-Model-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"network",
+		"results",
+		"semaphore",
+		"aghartaOne",
+		"aghartaTwo",
+		"aghartaThree"
+	],
+	"name" : "AGHMultiClientNetworkTest",
+	"type" : "normal"
+}

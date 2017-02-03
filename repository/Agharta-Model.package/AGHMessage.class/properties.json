@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Agharta-Model-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"channel",
+		"status",
+		"author",
+		"contents"
+	],
+	"name" : "AGHMessage",
+	"type" : "normal"
+}
