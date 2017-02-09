@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Agharta-MQTT-Requests",
+	"super" : "AGHMQTTPrefixedNode",
+	"category" : "Agharta-MQTT-Client-Server",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"answerTopic"
+		"agharta"
 	],
-	"name" : "AGHMQTTRequest",
+	"name" : "AGHMQTTNetwork",
 	"type" : "normal"
 }

@@ -1,4 +1,4 @@
 converting
 asByteArray
-	^ AAGHJSONWriter new 
+	^ AGHMQTTJSONWriter new 
 		toByteArray: self

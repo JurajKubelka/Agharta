@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Agharta-MQTT-Requests",
+	"category" : "Agharta-MQTT-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"answerTopic"
+		"stream"
 	],
-	"name" : "AGHMQTTRequest",
+	"name" : "AGHMQTTJSONWriter",
 	"type" : "normal"
 }

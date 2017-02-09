@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "Agharta-MQTT-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"network",
+		"results",
+		"semaphore",
+		"agharta",
+		"prefix"
+	],
+	"name" : "AGHMQTTNetworkTest",
+	"type" : "normal"
+}
