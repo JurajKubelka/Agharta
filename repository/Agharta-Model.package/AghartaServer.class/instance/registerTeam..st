@@ -1,3 +1,3 @@
-as yet unclassified
+public
 registerTeam: anAGHTeam 
-	self shouldBeImplemented.
+	^ (self teams add: anAGHTeam) beRegistered; yourself

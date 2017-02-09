@@ -1,9 +1,9 @@
 tests
 testRegisteringTeam
-	agharta when: AGHRegisteringTeam do: [ :ann | results add: ann. semaphore signal ].
-	agharta registerTeamId: self teamId.
+	aghartaClient when: AGHRegisteringTeam do: [ :ann | results add: ann. semaphore signal ].
+	aghartaClient registerTeamId: self teamId.
 	self assertSemaphore.
 	self assert: results first team id equals: self teamId.
-	self assert: agharta teams size equals: 1.
-	self assert: agharta teams first id equals: self teamId.
-	self assert: agharta teams first agharta == agharta.
+	self assert: aghartaClient teams size equals: 1.
+	self assert: aghartaClient teams first id equals: self teamId.
+	self assert: aghartaClient teams first agharta == aghartaClient.

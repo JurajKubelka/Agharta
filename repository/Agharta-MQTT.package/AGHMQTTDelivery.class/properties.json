@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Agharta-MQTT-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"agharta",
+		"response"
+	],
+	"name" : "AGHMQTTDelivery",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AGHMQTTPrefixedNode",
+	"category" : "Agharta-MQTT-Client-Server",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"agharta"
+	],
+	"name" : "AGHMQTTClient",
+	"type" : "normal"
+}

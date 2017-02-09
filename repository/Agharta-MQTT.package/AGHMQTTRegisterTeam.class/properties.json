@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "AGHMQTTRequest",
-	"category" : "Agharta-MQTT-Requests",
+	"category" : "Agharta-MQTT-Request-Response",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

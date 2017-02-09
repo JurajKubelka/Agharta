@@ -1,14 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "AGHAnnouncer",
+	"super" : "AGHAbstractNode",
 	"category" : "Agharta-Model-Client-Server",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"network",
-		"storage"
-	],
+	"instvars" : [ ],
 	"name" : "AghartaServer",
 	"type" : "normal"
 }
