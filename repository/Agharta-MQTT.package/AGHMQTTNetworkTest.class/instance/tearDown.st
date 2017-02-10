@@ -1,4 +1,4 @@
 running
 tearDown
-	client ifNotNil: #close.
+	clientOne ifNotNil: #close.
 	super tearDown.

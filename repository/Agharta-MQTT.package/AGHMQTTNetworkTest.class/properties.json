@@ -9,10 +9,12 @@
 		"results",
 		"semaphore",
 		"prefix",
-		"client",
-		"aghartaClient",
 		"aghartaServer",
-		"server"
+		"server",
+		"clientOne",
+		"aghartaClientOne",
+		"aghartaClientTwo",
+		"clientTwo"
 	],
 	"name" : "AGHMQTTNetworkTest",
 	"type" : "normal"

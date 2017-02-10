@@ -4,4 +4,5 @@ setUp
 	results := OrderedCollection new.
 	semaphore := Semaphore new.
 	self setUpServer.
-	self setUpClient.
+	self setUpClientOne.
+	self setUpClientTwo.

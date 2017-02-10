@@ -1,10 +1,12 @@
 network requests
 registerChannel: anAGHChannel
-	self channels add: anAGHChannel beRegistering.
+	| channel |
+	channel := self channels add: anAGHChannel beRegistering.
 	self
 		announce:
 			(AGHRegisteringChannel new
 				team: self;
-				channel: anAGHChannel;
+				channel: channel;
 				yourself).
-	self agharta registerChannel: anAGHChannel
+	self agharta registerChannel: anAGHChannel.
+	^ channel

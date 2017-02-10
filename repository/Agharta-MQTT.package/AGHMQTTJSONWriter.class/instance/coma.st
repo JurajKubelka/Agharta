@@ -1,0 +1,3 @@
+writing
+coma
+	stream nextPut: $,
