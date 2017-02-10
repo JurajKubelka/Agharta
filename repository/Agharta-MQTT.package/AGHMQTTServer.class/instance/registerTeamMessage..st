@@ -5,7 +5,7 @@ registerTeamMessage: message
 	request := AGHMQTTJSONReader new fromByteArray: message contents.
 	team := self registerTeam: request team.
 	self mqttClient 
-		sendMessage: (AGHMQTTTeamCreated new id: team id) asByteArray
+		sendMessage: (AGHMQTTTeamCreated new item: team) asByteArray
 		toTopic: (self answerTopic: request).
 	self log: 'Registred team with id "', team id asString, '"'.
 	^ team

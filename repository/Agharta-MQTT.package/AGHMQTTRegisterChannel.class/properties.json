@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "AGHMQTTRequest",
 	"category" : "Agharta-MQTT-Request-Response",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "AGHMQTTResponse",
+	"instvars" : [
+		"channel"
+	],
+	"name" : "AGHMQTTRegisterChannel",
 	"type" : "normal"
 }

@@ -1,5 +1,5 @@
 parsing
 parseTeamCreated: json
 	^ AGHMQTTTeamCreated new
-		id: (json at: #id);
+		team: (self parse: (json at: #team));
 		yourself

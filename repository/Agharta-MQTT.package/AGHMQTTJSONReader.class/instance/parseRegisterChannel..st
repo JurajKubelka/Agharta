@@ -1,6 +1,6 @@
-parsing - old (check)
+parsing
 parseRegisterChannel: json 
-	^ AAGHRegisterChannel new
+	^ AGHMQTTRegisterChannel new
 		answerTopic: (json at: 'answerTopic');
 		channel: (self parse: (json at: 'channel'));
 		yourself

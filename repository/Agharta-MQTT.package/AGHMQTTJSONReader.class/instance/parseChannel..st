@@ -1,5 +1,6 @@
-parsing - old (check)
+parsing
 parseChannel: json 
-	^ AAGHChannelModel new
+	^ AGHChannel new
 		id: (json at: 'id');
+		team: (self parse: (json at: 'team'))
 		yourself

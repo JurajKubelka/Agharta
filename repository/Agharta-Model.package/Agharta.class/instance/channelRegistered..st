@@ -1,5 +1,5 @@
 network handling
 channelRegistered: anAGHChannel
-	self teams
+	^ self teams
 		find: anAGHChannel team 
 		do: [ :team | team channelRegistered: anAGHChannel ]

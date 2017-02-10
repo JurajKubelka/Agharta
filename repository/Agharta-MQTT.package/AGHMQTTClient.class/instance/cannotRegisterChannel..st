@@ -1,0 +1,3 @@
+network handling
+cannotRegisterChannel: anAGHChannel
+	self agharta cannotRegisterChannel: anAGHChannel
