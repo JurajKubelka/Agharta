@@ -1,6 +1,8 @@
 tests
 testSendMessage
 	| teamOne teamTwo channelTwo channelOne |
+	clientOne run. clientTwo run.
+	server registerServices; run.
 	teamOne := aghartaClientOne registerTeamId: self teamId.
 	teamTwo := aghartaClientTwo registerTeamId: self teamId.
 	channelTwo := teamTwo registerChannelId: self channelId.

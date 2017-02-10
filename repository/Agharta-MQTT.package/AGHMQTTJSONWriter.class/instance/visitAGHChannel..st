@@ -1,9 +1,10 @@
 visiting
 visitAGHChannel: anAGHChannel 
-	stream 
-		nextPutAll: '{"type":"Channel",';
-		nextPutAll: '"id":"';
-		nextPutAll: anAGHChannel id asString;
-		nextPutAll: '","team":'.
-	anAGHChannel team accept: self.
-	stream nextPut: $}
+	self
+		openObject;
+		type: 'Channel';
+		coma;
+		key: 'id' string: anAGHChannel id;
+		coma;
+		key: 'team' object: anAGHChannel team;
+		closeObject

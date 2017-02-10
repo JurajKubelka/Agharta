@@ -9,6 +9,6 @@
 		"agharta",
 		"response"
 	],
-	"name" : "AGHMQTTDelivery",
+	"name" : "AGHMQTTDeliveryResponse",
 	"type" : "normal"
 }

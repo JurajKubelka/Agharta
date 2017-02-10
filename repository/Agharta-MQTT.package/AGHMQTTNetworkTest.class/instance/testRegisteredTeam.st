@@ -1,6 +1,6 @@
 tests
 testRegisteredTeam
-	server registerServices; run.
+	self setUpServer.
 	aghartaClientOne when: AGHRegisteredTeam do: [ :ann | results add: ann. semaphore signal ].
 	aghartaClientOne registerTeamId: self teamId.
 	self assertSemaphore.

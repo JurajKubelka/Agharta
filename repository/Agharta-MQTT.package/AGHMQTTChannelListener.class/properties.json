@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "AGHMQTTPrefixedNode",
-	"category" : "Agharta-MQTT-Client-Server",
+	"super" : "Object",
+	"category" : "Agharta-MQTT-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"agharta"
+		"network",
+		"channel"
 	],
-	"name" : "AGHMQTTServer",
+	"name" : "AGHMQTTChannelListener",
 	"type" : "normal"
 }

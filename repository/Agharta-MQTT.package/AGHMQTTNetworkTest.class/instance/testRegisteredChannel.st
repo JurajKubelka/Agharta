@@ -1,7 +1,7 @@
 tests
 testRegisteredChannel
 	| team |
-	server registerServices; run.
+	self setUpServer.
 	team := aghartaClientOne registerTeamId: self teamId.
 	team when: AGHRegisteredChannel do: [ :ann | results add: ann. semaphore signal ].
 	team registerChannelId: self channelId.

@@ -1,7 +1,8 @@
 visiting
 visitAGHMQTTTeamCreated: anAGHTeamCreated 
-	stream 
-		nextPutAll: '{"type": "TeamCreated",';
-		nextPutAll: '"team":'.
-	anAGHTeamCreated team accept: self.
-	stream nextPut: $}
+	self 
+		openObject;
+		type: 'TeamCreated';
+		coma;
+		key: 'team' object: anAGHTeamCreated team;
+		closeObject

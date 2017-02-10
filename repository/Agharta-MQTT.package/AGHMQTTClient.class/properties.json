@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"agharta"
+		"agharta",
+		"delivery"
 	],
 	"name" : "AGHMQTTClient",
 	"type" : "normal"

@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"mqttClient"
+		"mqttClient",
+		"process",
+		"finish"
 	],
 	"name" : "AGHMQTTAbstractNode",
 	"type" : "normal"
