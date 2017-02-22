@@ -1,3 +1,3 @@
-# Agharta, a MQTT chat library
+# Agharta, a MQTT Pharo Chat library
 
-Pharo MQTT Chat Client. More documentation comming soon :-)
+This project is obsolete. A new project can be found in [MQTTChat repository](/JurajKubelka/MQTTChat).
